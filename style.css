@@ -50,8 +50,16 @@ a:active {
 }
 
 .centrado {
+    margin: auto;
     text-align: center;
-    top: 50px;
+}
+
+.cards_alineado{
+    width: 900px;
+    height: 530px;
+    background: #ffffff00;
+    margin: auto;
+    text-align: center;
 }
 
 .cards_distinciones {
@@ -72,8 +80,7 @@ a:active {
     background: #ffffff;
     border-radius: 10px;
     box-shadow: 0px 1px 0px;
-    left: 552px;
-    top: 1640px;
+    left: 50px;
 }
 
 .cajas_distinciones2 {
@@ -83,8 +90,7 @@ a:active {
     background: #ffffff;
     border-radius: 10px;
     box-shadow: 0px 1px 0px;
-    left: 820px;
-    top: 1640px;
+    left: 318px;
 }
 
 .cajas_distinciones3 {
@@ -94,8 +100,7 @@ a:active {
     background: #ffffff;
     border-radius: 10px;
     box-shadow: 0px 1px 0px;
-    left: 1090px;
-    top: 1640px;
+    left: 587px;
 }
 
 .texto_distinciones_balonoro {
@@ -118,15 +123,27 @@ a:active {
     left: 50px;
     top: -30px;
 }
+/* ----------------------------------------------------------- seccion mascota --------------------------------*/
+
+.position{
+    margin: auto;
+    width: 1350px;
+    height: 800px;
+    background: #ffffff00;
+    position: relative;
+    top: 150px;
+    z-index: 0;
+}
 
 .cuadro-gris {
     width: 578px;
     height: 525px;
     border-radius: 41px;
-    position: relative;
+    position: absolute;
     background: #d9d9d9de;
-    left: 350px;
-    top: 380px;
+    margin: auto;
+    top: 100px;
+    left: 100px;
     z-index: 20;
 }
 
@@ -145,9 +162,9 @@ a:active {
     border-radius: 41px;
     background: #000000;
     transform: rotate(-46deg);
-    position: relative;
-    left: 400px;
-    top: 50px;
+    position: absolute;
+    left: 150px;
+    top: 280px;
     z-index: 10;
 }
 
@@ -166,9 +183,9 @@ a:active {
     width: 656px;
     height: 428px;
     border-radius: 36px;
-    position: relative;
-    left: 880px;
-    top: -300px;
+    position: absolute;
+    left: 630px;
+    top: 150px;
     z-index: 15;
 }
 
@@ -187,8 +204,8 @@ a:active {
     height: 274px;
     border-radius: 99px;
     position: absolute;
-    left: 750px;
-    top: 2280px;
+    left: 520px;
+    top: 500px;
     z-index: 16;
 }
 
@@ -204,13 +221,20 @@ a:active {
 
 .mascota {
     position: absolute;
-    top: 2045px;
-    left: 470px;
+    top: 225px;
+    left: 250px;
     z-index: 30;
 }
 
-/*sugunda pagina*/
+/*--------------------------------------footer---------------------------------------------------*/
 
+.footer{
+    margin: auto;
+    text-align: center;
+    position: relative;
+    bottom: -230px;
+}
+/*---------------------------------------segunda pagina------------------------------------------------*/
 
 .text_title{
     position: relative;
